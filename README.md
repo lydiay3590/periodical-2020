@@ -1,1 +1,0 @@
-# periodical-2020
