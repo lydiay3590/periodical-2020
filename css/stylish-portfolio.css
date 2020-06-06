@@ -384,7 +384,7 @@ a:hover, a:focus, a:active {
 
 /* article CSS*/
 #content-wrap {
-  margin-top: 3.3rem;
+  margin-top: 3.3rem; /*space between top and the image*/
 }
 
 @media only screen and (max-width: 768px) {
@@ -398,7 +398,7 @@ a:hover, a:focus, a:active {
 }
 
 #article-title {
-  margin-top: 3.3rem;
+  margin-top: 3.3rem; /*space between image and title*/
 }
 
 @media only screen and (max-width: 768px) {
@@ -407,9 +407,34 @@ a:hover, a:focus, a:active {
   }
 }
 
+.author {
+  /* font-family: "muli-regular", sans-serif; */
+    font-size: 1.5rem;
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 5.4rem;  /*space between author and content*/
+    color: #999999;
+}
+
+#author-profile {  /*space between content and author profile*/
+  margin-top: 9rem;
+}
+#author-profile .author-avatar {
+  text-align: center;
+}
+#author-profile img {
+  width: 60px;
+}
+
+@media only screen and (max-width: 576px) {
+  #author-profile .author-name {
+    text-align: center;
+  }
+}
+
 .pagenav {
   padding-top: 1.5rem;
-  margin: 5rem 0;
+  margin: 5rem 0;  /* space between author profile and pagenav*/
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -437,26 +462,4 @@ a:hover, a:focus, a:active {
   }
 }
 
-.author {
-  /* font-family: "muli-regular", sans-serif; */
-    font-size: 1.5rem;
-    list-style: none;
-    margin-left: 0;
-    margin-bottom: 5.4rem;
-    color: #999999;
-}
-#author-profile {
-  margin-top: 9rem;
-}
-#author-profile .author-avatar {
-  text-align: center;
-}
-#author-profile img {
-  width: 60px;
-}
 
-@media only screen and (max-width: 576px) {
-  #author-profile .author-name {
-    text-align: center;
-  }
-}
