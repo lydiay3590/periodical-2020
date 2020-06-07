@@ -238,7 +238,7 @@ h6 {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: #95B2C7;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -251,13 +251,14 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
   font-size: 1.2rem;
+  text-align: left !important;
 }
 
 @media (min-width: 992px) {
@@ -286,7 +287,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgb(143, 186, 216);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
