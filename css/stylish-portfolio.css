@@ -463,4 +463,20 @@ a:hover, a:focus, a:active {
   }
 }
 
+.work-cited {
+margin-top: 5rem;
 
+}
+
+.work-cited .cite-description {
+  padding-left:2rem;
+  text-indent: -2rem;
+  font-family: "Times New Roman", Times, serif;
+
+}
+.work-cited .cite-link {
+  word-break: break-all;
+  padding-left:2rem;
+  text-indent: -2rem;
+  font-family: "Times New Roman", Times, serif;
+}
