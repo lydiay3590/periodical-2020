@@ -571,3 +571,13 @@ margin-top: 5rem;
 p .body-image {
   width: 70%;
 }
+
+.border-text {
+  -webkit-text-stroke: 0.1px white;
+}
+
+.border-text-light {
+  -webkit-text-stroke: 0.025px black !important;
+  color: white;
+  font-weight: 800 !important;
+}
