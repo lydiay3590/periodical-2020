@@ -587,3 +587,23 @@ p .body-image {
 .about-us section {
     padding: 5rem 0;
 }
+
+.smaller-font {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.smaller-margin {
+  margin-top: 1rem;
+}
+
+.blue-font {
+  font-weight: bolder;
+  color: #A6C5DE;
+  -webkit-text-stroke: 0.5px white
+}
+
+.fix-margin {
+  margin-left: 100px;
+  margin-right: auto;
+}
