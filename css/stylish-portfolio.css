@@ -315,11 +315,11 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: #8FBAD8;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #8FBAD8;
 }
 
 .btn-primary {
@@ -597,13 +597,17 @@ p .body-image {
   margin-top: 1rem;
 }
 
-.blue-font {
-  font-weight: bolder;
-  color: #A6C5DE;
-  -webkit-text-stroke: 0.5px white
-}
+/*.blue-font {*/
+/*  font-weight: bolder;*/
+/*  color: #A6C5DE;*/
+/*  -webkit-text-stroke: 0.5px white*/
+/*}*/
 
 .fix-margin {
   margin-left: 100px;
   margin-right: auto;
+}
+
+.blue {
+  color: #A6C5DE;
 }
